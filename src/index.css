@@ -1,5 +1,5 @@
 :root{
-  --clr-bg:hsla(263,78%,41%,0.938);
+  --clr-bg:#ffff;
 }
 
 *,
@@ -11,7 +11,7 @@
 }
 
 body{
-  background:var(--clr-bg);
+  background:linear-gradient(blue,white);
   color:rgb(209,209,209);
   line-height: 1.5;
   font-size:0.875rem;
@@ -53,7 +53,7 @@ main {
   width:90vw;
   margin:5rem 0;
   max-width:450px;
-  background:var(--clr-bg);
+  background:rgb(118, 36, 212);
   padding:1.5rem 2rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   border-radius: 0.25rem;
@@ -85,7 +85,7 @@ main {
   margin-bottom: 0;
 }
 .container button {
-  color: #fff;
+  color: black;
   display: block;
   width: 100%;
   border-color: transparent;
